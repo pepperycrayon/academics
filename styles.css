@@ -1,0 +1,179 @@
+a {
+    font-style:italic;
+    font-size:15px;
+    color:rgb(102, 38, 252);
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+/*--Makes links change color below--*/
+a:hover{
+color: rgb(235, 163, 69);
+font-size: 30px;
+}
+/*Causes text to be centered*/
+body {
+text-align:center;
+background-color:#8FCBFF;
+}
+
+.white {
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+/*Makes smaller blue classes with attractive font*/
+h3 {
+    color:#0300BF;
+    font-family: 'Irish Grover', cursive;
+}
+
+h2 {
+    color:#0300BF;
+    font-family: 'Irish Grover', cursive;
+}
+/*Images below*/
+#first{
+    float: left;
+    left: 10%;
+    width:30%;
+    height: 45%;
+    opacity: 0;
+    translate: (-300px, 0px);
+    transition: .5s ease;
+    background-color: #4CAF50;
+    text-shadow: 0 0 30px #fff;
+}
+
+#first:hover{
+opacity: 1;
+}
+
+#second {
+    float: right;
+    width:30%;
+    height: 45%;    
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4CAF50;
+    text-shadow: 0 0 30px #fff;
+}
+
+#second:hover{
+opacity: 1;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+#periods {
+    color: rgb(248, 159, 196);
+    width: 100%;
+}
+
+#tired {
+    float: right;
+    width: 20%;
+}
+
+#h2 {
+    text-align: right;
+}
+
+#park {
+    width: 40%;
+}
+
+
+#house {
+    box-shadow: 0 0 100px #fff;
+    width: 20%;
+}
+
+#skill {
+    font-size: 60px;
+}
+
+#large {
+    font-size: 30px;
+}
+
+.piano {
+    text-align: left;
+}
+
+#house{
+    float: left;
+}
+
+#deer{
+    width: 40%;
+    float: right;
+    box-shadow: 0 0 100px #fff;
+}
+
+.courir{
+    text-align: right;
+}
+
+.shadow {
+   box-shadow: 0 0 100px #fff; 
+   
+}
+
+#birdie {
+    position: absolute;
+  top: 24%;
+  left: 15%;
+  width: 50%;
+}
+
+#intro {
+    position: absolute;
+    left: 65%;
+    top: 40%;
+}
+
+#crepes {
+    width:1000px;
+    position: absolute;
+    right: 30%;
+}
+
+#fr {
+    position: absolute;
+}
+
+#moon {
+    float: left;
+    width: 50%;
+}
+
+#mansion {
+    width:100%;
+    left: 10%;
+}
+
+#list {
+    font-family: 'Irish Grover', cursive;
+}
+
+li {
+    color:#0300BF;
+    font-family: 'Irish Grover', cursive;
+}
+
+script {
+    color:#0300BF;
+    font-family: 'Irish Grover', cursive;
+}
+
+#portrait {
+    width: 1000px;
+    float:left;
+}
+
+#pigeon {
+    width:1000px;
+    float: right;
+}

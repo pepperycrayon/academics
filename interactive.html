@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+ <h1 class="white">Interactive</h1>
+ <br>
+ <br>
+ <br>
+ <h2 class="white">Reasons I don't like lists</h2>
+ <ol>
+<li>They're easy</li>
+<li>They're overused</li>
+<li>We're being forced to use them</li>
+</ol>
+<br>
+<br>
+<br>
+
+ <h3 id="list">
+     Choose your favorite animal to learn fun facts about them
+ </h3>
+ <img id="portrait" src="portrait.jpg" alt= "cute-cat">
+  <img id="pigeon" src="pigeon.jpg" alt= "disturbing-pigeons">
+<!---Must create list--->
+<!---Used mad libs project as template for form--->
+ <form id="myForm">
+    <label for="verb1"></label>
+    <select id="verb1" name="verb1">
+    <option value="Dogs noses are wet to help absorb scent chemicals">Dog</option>
+    <option value="A house cat is genetically 95.6% tiger">Cat</option>
+    <option value="Though the biggedt fish in the world, they feed on tiny krill and are totally docile">Whale Shark</option>
+    <option value="Armadillos can catch leprosy">Armadillo</option>
+    <option value="Pigeons have a built in compass which allows them to fly across a thousand miles to their home nest">Pigeon</option>
+     <option value="Kangaroos Do, in Fact, Fart">Kangaroo</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+
+</form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<div id="formContent1"></div>
+<script>
+    var form = document.getElementById("myForm");
+    form.addEventListener("submit", function(event){
+        console.log("submitted");
+        event.preventDefault();
+    var verb1 = document.getElementById("verb1").value;
+    var formContent = document.getElementById("formContent1");
+        formContent.innerHTML = "<h3>  " + verb1 + ".</h3>";
+       
+});
+
+
+
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3>Credit for information to internet.</h3>
+<br>
+<br>
+    </body>
+</html>
+<a href="index.html">1. Index page</a>
+    </body>
+</html>
